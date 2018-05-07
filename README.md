@@ -6,7 +6,29 @@ Bulk SMS through a single API request.
 Make marketing announcements, send emergency response notifications.
 Available in beta.
 
+More info:
+https://www.twilio.com/blog/2017/08/bulk-sms-with-one-api-request.html
 
+## Install Homebrew
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Install npm
+```bash
+brew install node
+```
+
+## Add node path to .zrshc
+```bash
+nano ~/.zshrc
+```
+```bash
+export PATH="/usr/local/share/npm/bin:$PATH"
+```
+```bash
+source ~/.zshrc
+```
 
 ## Setup
 
